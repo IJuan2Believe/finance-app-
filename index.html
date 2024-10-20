@@ -210,7 +210,7 @@
           <a
             href="#"
              class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium nav-text"
-              >Things to do</a
+              >To the IRS</a
           >
         </div>
       </div>
@@ -218,23 +218,55 @@
 
     <main >
         <div class="container-1">
-            <div class="card austin">
+            <div class="card federalinc">
                 <h2 class="city-names">Federal Income</h2>
-                <div data-location='austin' class="temp-display"></div>
+                <div data-location='federalinc' class="temp-display"></div>
             </div>
-            <div class="card houston">
-                <h2 class="city-names">Payroll</h2>
-                <div data-location='houston' class="temp-display"></div>
+            <div class="card payroll">
+                <h2 class="city-names">Self Employment</h2>
+                <div data-location='payroll' class="temp-display"></div>
             </div>
-            <div class="card dallas">
+            <div class="card capitalgain">
                 <h2 class="city-names">Capital Gain</h2>
-                <div data-location='dallas' class="temp-display"></div>
+                <div data-location='capitalgain' class="temp-display"></div>
             </div>
-            <div class="card san-antonio">
-              <h2 class="city-names">Estate and Gift</h2>
-              <div data-location='san&antonio' class="temp-display"></div>
+            <div class="card gambling">
+              <h2 class="city-names">Gambling</h2>
+              <div data-location='gambling' class="temp-display"></div>
           </div>
         </div>
+
+      <script>
+          const federalIncCard = document.querySelector('.federalinc');
+      
+          federalIncCard.addEventListener('click', () => {
+              window.location.href = 'Federal_income/federal_income.html';
+          });
+      </script>
+
+      <script>
+          const payRollCard = document.querySelector('.payroll');
+      
+          payRollCard.addEventListener('click', () => {
+              window.location.href = 'self_employment/self_employment.html';
+          });
+      </script>
+
+      <script>
+          const capitalGainCard = document.querySelector('.capitalgain');
+      
+          capitalGainCard.addEventListener('click', () => {
+              window.location.href = 'capital_gaintax/capital_gaintax.html';
+          });
+      </script>
+
+      <script>
+          const gamblingCard = document.querySelector('.gambling');
+      
+          gamblingCard.addEventListener('click', () => {
+              window.location.href = 'gambling/gambling.html';
+          });
+      </script>
       
     </main>
 
@@ -252,7 +284,7 @@
 </html>
 
     <footer>
-        <p>&copy; 2024 Guijuca</p>
+        <p>&copy; 2024 FTI</p>
     </footer>
 </body>
 </html>
