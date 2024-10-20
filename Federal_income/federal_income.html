@@ -24,19 +24,19 @@
             <h1>Federal Income</h1>
             
             <div class="input-box">
-                <input type="number" placeholder="Taxable Income" required>
+                <input id="taxinc" type="number" placeholder="Taxable Income" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Marginal Tax Rate (%)" required>
+                <input id="taxr" type="number" placeholder="Marginal Tax Rate (%)" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Tax Credits" required>
+                <input id="taxc" type="number" placeholder="Tax Credits" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Deductions" required>
+                <input id="deductions" type="number" placeholder="Deductions" required>
             </div>
 
-            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn">Submit</button>
 
             <div class="input-box">
                 <input type="Total" placeholder="Total" required readonly>
@@ -47,6 +47,8 @@
     <footer>
         <p class="footer">A group project by: Guillermo Saenz, Carlos Rivas, and Juan Nino</p>
     </footer>
+
+    <script src="../assets/js/federal_income.js"></script>
 
 </body>
 

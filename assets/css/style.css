@@ -108,7 +108,7 @@
   
   /* CITY CARD BACKGROUNDS */
   
-  .houston {
+  .payroll {
     background-image: url("../img/houston-bg.png");
     background-size: cover;
     background-position: center;
@@ -118,7 +118,7 @@
     justify-content: center;
   }
   
-  .austin {
+  .federalinc {
     background-image: url("../img/austin-bg.png");
     background-size: cover;
     background-position: center;
@@ -128,7 +128,7 @@
     justify-content: center;
   }
   
-  .dallas {
+  .capitalgain {
     background-image: url("../img/dallas-bg.png");
     background-size: cover;
     background-position: center;
@@ -139,7 +139,7 @@
     flex-direction: column;
   }
   
-  .san-antonio {
+  .gambling {
     background-image: url("../img/san-antonio-bg.png");
     background-size: cover;
     background-position: center;
@@ -149,51 +149,7 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .panhandle {
-    background-image: url("../img/panhandle-bg.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .rio-grande {
-    background-image: url("../img/rio-grande-bg.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .east-texas {
-    background-image: url("../img/east-texas-bg.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .west-texas {
-    background-image: url("../img/west-texas-bg.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
-  
+
   footer {
     height: 100px;
     background-color: rgb(31, 41, 55);

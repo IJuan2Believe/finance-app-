@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
   
           if (response.ok) {
 
-            window.location.href = "/dashboard";
+            window.location.href = "/index";
           } else {
           
             const errorData = await response.json();
-            alert(`Login fallido: ${errorData.message}`);
+            alert(`Failed Login: ${errorData.message}`);
           }
         } catch (error) {
        
